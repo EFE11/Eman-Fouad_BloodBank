@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/plugins/OwlCarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/plugins/OwlCarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/style-en.css">
+    <title>Sign up</title>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-2 padding-sm">
+                        <div class="lang">
+                            <a href="./sign-up.html">
+                                <span class="lang-ar">عربى</span>
+                            </a>
+                            <a href="#">
+                                <span>EN</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-3 padding-sm">
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-7 pr-0">
+                        <div class="account">
+                            <div class="account-signup d-inline-block">
+                                <a href="./sign-up-en.html">Sign up</a>
+                            </div>
+                            <div class="account-login d-inline-block">
+                                <a href="./login-en.html">Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="./index-en.html">
+                    <img src="./assets/images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active border-right">
+                            <a class="nav-link" href="./index-en.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="#">About blood bank</a>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="#">Articles</a>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="./requests-en.html">Donation Requests</a>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="./about-us-en.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact-en.html">Contact us</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="./request-details-en.html">
+                            <button class="btn login-btn my-2 my-sm-0" type="button">Donation Request</button>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Start signup -->
+    <div class="signup">
+        <div class="container">
+            <nav class="pt-4" aria-label="breadcrumb">
+                <ol class="breadcrumb breadcrumb-edit">
+                    <li class="breadcrumb-item"><a href="index-en.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Sign up</li>
+                </ol>
+            </nav>
+            <form class="signup-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Email">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="datepicker1" placeholder="Birthday">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fas fa-calendar-alt" ></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Blood Type">
+                </div>
+                <select class="custom-select">
+                    <option selected>Governorate</option>
+                    <option value="1">Mansoura</option>
+                    <option value="2">Algharbia</option>
+                    <option value="3">Alsharkia</option>
+                </select>
+                <select class="custom-select">
+                    <option selected>City</option>
+                    <option value="1">Tanta</option>
+                    <option value="2">Kafr elzayat</option>
+                    <option value="3">Dosok</option>
+                </select>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="datepicker2" placeholder="Last donation's date">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1"
+                        placeholder="Confirm Password">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn create-btn">Create</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <!-- End signup -->
+
+
+    <!-- Start footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 footer-info">
+                    <img src="./assets/images/logo.png" alt="logo">
+                    <h2>Blood Bank</h2>
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution
+                    </p>
+                </div>
+                <div class="col-lg-4 footer-links">
+                    <h3>Main</h3>
+                    <ul class="list-unstyled">
+                        <li>About Blood Bank</li>
+                        <li>Articles</li>
+                        <li><a href="./requests.html">Donation Requests</a></li>
+                        <li><a href="./about-us.html">About us</a></li>
+                        <li><a href="./contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 footer-app">
+                    <h3>Available on</h3>
+                    <a href="#"><img src="./assets/images/google1.png" alt="google"></a>
+                    <a href="#"><img src="./assets/images/ios1.png" alt="ios"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-4 social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <div class="col-lg-4 copy">
+                        <p>
+                            All rights reserved 
+                            <span>Blood Bank</span>
+                            <i class="far fa-copyright"></i>
+                            2019
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js"
+        integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k"
+        crossorigin="anonymous"></script>
+    <script src="./assets/plugins/OwlCarousel/owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/e9c094e37f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./assets/js/datepicker.js"></script>
+</body>
+
+</html>

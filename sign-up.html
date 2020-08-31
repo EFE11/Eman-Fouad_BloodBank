@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css"
+        integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./assets/plugins/OwlCarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/plugins/OwlCarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>إنشاء حساب جديد</title>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-2 padding-sm">
+                        <div class="lang">
+                            <a href="#">
+                                <span class="lang-ar">عربى</span>
+                            </a>
+                            <a href="./sign-up-en.html">
+                                <span>EN</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-3 padding-sm">
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-7 pr-0">
+                        <div class="account">
+                            <div class="account-signup d-inline-block">
+                                <a href="./sign-up.html">إنشاء حساب جديد</a>
+                            </div>
+                            <div class="account-login d-inline-block">
+                                <a href="./login.html">الدخول</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active border-right">
+                            <a class="nav-link" href="./index.html">الرئيسية<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="#">عن بنك الدم</a>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="#">المقالات</a>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="./requests.html">طلبات التبرع</a>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="./about-us.html">من نحن</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">اتصل بنا</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="./request-details.html">
+                            <button class="btn login-btn my-2 my-sm-0" type="button">طلب تبرع</button>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Start signup -->
+    <div class="signup">
+        <div class="container">
+            <nav class="pt-4" aria-label="breadcrumb">
+                <ol class="breadcrumb breadcrumb-edit">
+                    <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">إنشاء حساب جديد</li>
+                </ol>
+            </nav>
+            <form class="signup-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="الاسم">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="البريد الإلكترونى">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="datepicker1" placeholder="تاريخ الميلاد">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="فصيلة الدم">
+                </div>
+                <select class="custom-select">
+                    <option selected>المحافظة</option>
+                    <option value="1">المنصورة</option>
+                    <option value="2">الغربية</option>
+                    <option value="3">الشرقية</option>
+                </select>
+                <select class="custom-select">
+                    <option selected>المدينة</option>
+                    <option value="1">طنطا</option>
+                    <option value="2">كفر الزيات</option>
+                    <option value="3">دسوق</option>
+                </select>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="رقم الهاتف">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="datepicker2" placeholder="اخر تاريخ التبرع">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="كلمة المرور">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1"
+                        placeholder="تأكيد كلمة المرور">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn create-btn">إنشاء</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <!-- End signup -->
+
+
+    <!-- Start footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 footer-info">
+                    <img src="./assets/images/logo.png" alt="logo">
+                    <h2>بنك الدم</h2>
+                    <p>بنك الدم هذا النص هو مثال لنص يمكن ان يستبدل فى نفس المساحه, لقد تم توليد هذا النص من مولد النص
+                        العربى حيث يمكنك توليد مثل هذا النص أو العديد من النصوص الاخرى إضافة الى زيادة عدد الحروف التى
+                        يولدها التطبيق يطلع على صوره حقيقية للتصمصم</p>
+                </div>
+                <div class="col-lg-4 footer-links">
+                    <h3>الرئيسية</h3>
+                    <ul class="list-unstyled">
+                        <li>عن بنك الدم</li>
+                        <li>المقالات</li>
+                        <li>طلبات التبرع</li>
+                        <li>من نحن</li>
+                        <li>اتصل بنا</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 footer-app">
+                    <h3>متوفر على</h3>
+                    <a href="#"><img src="./assets/images/google1.png" alt="google"></a>
+                    <a href="#"><img src="./assets/images/ios1.png" alt="ios"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-4 social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <div class="col-lg-4 copy">
+                        <p>
+                            جميع الحقوق محفوظه ل
+                            <span> بنك الدم </span>
+                            <i class="far fa-copyright"></i>
+                            2019
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js"
+        integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k"
+        crossorigin="anonymous"></script>
+    <script src="./assets/plugins/OwlCarousel/owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/e9c094e37f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./assets/js/datepicker.js"></script>
+</body>
+
+</html>
