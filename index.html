@@ -71,10 +71,10 @@
                             <a class="nav-link" href="./index.html">الرئيسية<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item border-right">
-                            <a class="nav-link" href="#">عن بنك الدم</a>
+                            <a class="nav-link" href="./about-us.html">عن بنك الدم</a>
                         </li>
                         <li class="nav-item border-right">
-                            <a class="nav-link" href="#">المقالات</a>
+                            <a class="nav-link" href="./articles.html">المقالات</a>
                         </li>
                         <li class="nav-item border-right">
                             <a class="nav-link" href="./requests.html">طلبات التبرع</a>
@@ -199,43 +199,33 @@
     <!-- End Articles -->
 
     <!-- Start Requests -->
-    <div class="requests mt-5">
+    <div class="requests">
         <h2 class="text-center container">طلبات التبرع</h2>
         <div class="requests-bg">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-lg-5">
-                        <div class="dropdown btn-group">
-                            <button type="button" class="btn btn-text"> اختر فصيلة الدم</button>
-                            <button class="btn border-left dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <!-- <span class="sr-only">Toggle Dropdown</span> -->
-
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">A</a>
-                                <a class="dropdown-item" href="#">A+</a>
-                                <a class="dropdown-item" href="#">B</a>
-                            </div>
-                        </div>
+                        <div class="form-group">
+                            <select id="inputState" class="form-control classic">
+                              <option selected hidden>اختر فصيلة الدم</option>
+                              <option>A</option>
+                              <option>A+</option>
+                              <option>B</option>
+                            </select>
+                          </div>
                     </div>
                     <div class="col-lg-5">
-                        <div class="dropdown btn-group">
-                            <button type="button" class="btn btn-text"> اختر المدينة</button>
-                            <button class="btn border-left dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <!-- <span class="sr-only">Toggle Dropdown</span> -->
-
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">القاهرة</a>
-                                <a class="dropdown-item" href="#">الأسكندرية</a>
-                                <a class="dropdown-item" href="#">الغردقة</a>
-                            </div>
-                        </div>
+                        <div class="form-group">
+                            <select id="inputState" class="form-control">
+                              <option selected hidden>اختر المدينة </option>
+                              <option>القاهرة</option>
+                              <option>الأسكندرية</option>
+                              <option>الغردقة</option>
+                            </select>
+                          </div>
                     </div>
                     <div class="col-lg-2">
-                        <button type="button" class="request-search-btn">
+                        <button type="submit" class="request-search-btn">
                             <i class="fas fa-search"></i>
                         </button>
                     </div>
@@ -439,8 +429,8 @@
                 <div class="col-lg-4 footer-links">
                     <h3>الرئيسية</h3>
                     <ul class="list-unstyled">
-                        <li>عن بنك الدم</li>
-                        <li>المقالات</li>
+                        <li><a href="#">عن بنك الدم</a></li>
+                        <li><a href="#">المقالات</a></li>
                         <li><a href="./requests.html">طلبات التبرع</a></li>
                         <li><a href="./about-us.html">من نحن</a></li>
                         <li><a href="./contact.html">اتصل بنا</a></li>

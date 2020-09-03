@@ -9,11 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="./assets/plugins/OwlCarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/plugins/OwlCarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./assets/css/style-en.css">
-    <title>Sign up</title>
+    <title>Articles</title>
 </head>
 
 <body>
@@ -24,7 +23,7 @@
                 <div class="row">
                     <div class="col-xl-4 col-md-2 padding-sm">
                         <div class="lang">
-                            <a href="./sign-up.html">
+                            <a href="./index.html">
                                 <span class="lang-ar">عربى</span>
                             </a>
                             <a href="#">
@@ -41,12 +40,14 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-7 pr-0">
-                        <div class="account">
-                            <div class="account-signup d-inline-block">
-                                <a href="./sign-up-en.html">Sign up</a>
+                        <div class="contact">
+                            <div class="contact-message d-inline-block border-right">
+                                <i class="far fa-envelope"></i>
+                                <span class="pr-2">name@name.com</span>
                             </div>
-                            <div class="account-login d-inline-block">
-                                <a href="./login-en.html">Login</a>
+                            <div class="contact-phone d-inline-block">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+966506954964</span>
                             </div>
                         </div>
                     </div>
@@ -66,13 +67,13 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active border-right">
+                        <li class="nav-item  border-right">
                             <a class="nav-link" href="./index-en.html">Home<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item border-right">
                             <a class="nav-link" href="./about-us-en.html">About blood bank</a>
                         </li>
-                        <li class="nav-item border-right">
+                        <li class="nav-item active border-right">
                             <a class="nav-link" href="./articles-en.html">Articles</a>
                         </li>
                         <li class="nav-item border-right">
@@ -86,83 +87,63 @@
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
-                        <a href="./request-order-en.html">
-                            <button class="btn login-btn my-2 my-sm-0" type="button">Donation Request</button>
+                        <a href="./sign-up-en.html">
+                            <button class="btn signup-btn my-2 my-sm-0" type="button">
+                                Sign up
+                            </button>
+                        </a>
+                        <a href="./login-en.html">
+                            <button class="btn login-btn my-2 my-sm-0" type="button">Login</button>
                         </a>
                     </form>
                 </div>
             </div>
         </nav>
+
     </header>
     <!-- End Header -->
 
-
-    <!-- Start signup -->
-    <div class="signup">
+    <!-- Start Articles -->
+    <section class="articles">
         <div class="container">
-            <nav class="pt-4" aria-label="breadcrumb">
-                <ol class="breadcrumb breadcrumb-edit">
-                    <li class="breadcrumb-item"><a href="index-en.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Sign up</li>
-                </ol>
-            </nav>
-            <form class="signup-form">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name">
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Email">
-                </div>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="datepicker1" placeholder="Birthday">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <i class="fas fa-calendar-alt" ></i>
-                        </div>
+            <h2>Articles</h2>
+            <div class="owl-carousel articles-carousel">
+                <div class="card article-card">
+                    <img src="./assets/images/p1.jpg" class="card-img-top" alt="img1">
+                    <a class="heart-icon">
+                        <button class="btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Method of disease prevention</h5>
+                        <p class="card-text">
+                            It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout
+                        </p>
+                        <a href="./article-details-en.html" class="btn btn-primary">Details</a>
                     </div>
                 </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Blood Type">
-                </div>
-                <select class="custom-select">
-                    <option selected>Governorate</option>
-                    <option value="1">Mansoura</option>
-                    <option value="2">Algharbia</option>
-                    <option value="3">Alsharkia</option>
-                </select>
-                <select class="custom-select">
-                    <option selected>City</option>
-                    <option value="1">Tanta</option>
-                    <option value="2">Kafr elzayat</option>
-                    <option value="3">Dosok</option>
-                </select>
-                <div class="form-group">
-                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
-                </div>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="datepicker2" placeholder="Last donation's date">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <i class="fas fa-calendar-alt"></i>
-                        </div>
+                <div class="card article-card">
+                    <img src="./assets/images/p2.jpg" class="card-img-top" alt="img1">
+                    <a class="heart-icon">
+                        <button class="btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Method of disease prevention</h5>
+                        <p class="card-text">
+                            It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout
+                        </p>
+                        <a href="./article-details-en.html" class="btn btn-primary">Details</a>
                     </div>
                 </div>
-                <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputPassword1"
-                        placeholder="Confirm Password">
-                </div>
-                <div class="text-center">
-                    <button type="submit" class="btn create-btn">Create</button>
-                </div>
-            </form>
-
+            </div>
         </div>
-    </div>
-    <!-- End signup -->
+    </section>
+    <!-- End Articles -->
 
 
     <!-- Start footer -->
@@ -235,9 +216,7 @@
         crossorigin="anonymous"></script>
     <script src="./assets/plugins/OwlCarousel/owl.carousel.min.js"></script>
     <script src="https://kit.fontawesome.com/e9c094e37f.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="./assets/js/datepicker.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

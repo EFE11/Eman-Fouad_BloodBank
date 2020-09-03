@@ -223,6 +223,7 @@ main .carousel-indicators li.active{
 /* Start Articles */
 .articles{
     margin-top: 2rem;
+    margin-bottom: 4rem;
     position: relative;
 }
 .articles::before{
@@ -329,27 +330,19 @@ main .carousel-indicators li.active{
     text-align: right;
     margin-bottom: 1.5rem;
 }
-.requests .btn-group {
-    width: 100%;
+.requests .form-group select{
+    cursor: pointer;
     height: 3.5rem;
     background-color: #fff;
+    border: none;
     border-radius: 4rem;
-}
-.requests .btn-text{
-    width: 65%;
-    text-align: right;
-    font-size: 1.3rem;
-    padding-right: 1rem;
-    color: #888;
-}
-.requests .dropdown-menu.show {
-    width: 100%;
-    padding: 0 5px;
-    position: absolute;
-    will-change: transform;
-    top: 0px;
-    transform: translate3d(-1px, 60px, 0px) !important;
-    left: 0px;
+    padding: 0 0.5rem;
+    appearance: none;
+    background-image: url("./../images/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-position:bottom 45% left 4%;
+    background-size: 0.8rem;
+
 }
 .request-search-btn{
     background-color: #fff;
@@ -372,8 +365,8 @@ button:focus {
 }
 .patient-details .blood-container{
     background-color: #f8f8f8;
-    width: 8rem;
-    height: 8rem;
+    width: 9rem;
+    height: 9rem;
     border-radius: 6rem;
     margin: 0.4rem;
     display: flex;
@@ -422,11 +415,7 @@ button:focus {
  color: #fff;
 }
 
-@media (max-width: 991.98px) { 
-     .requests .btn-group {
-        margin-bottom: 1rem;
-    }
- }
+
 @media (min-width: 768px) and (max-width: 991.98px) { 
     .patient-details {
         padding: 1rem;
@@ -437,9 +426,6 @@ button:focus {
     .patient-details .adjust-width-info{
         width: 75%;
      }
-     .requests .btn-group {
-        margin-bottom: 1rem;
-    }
 
  }
 @media (max-width: 767.98px) { 
@@ -1091,23 +1077,23 @@ footer .copyright span{
     border: 1.5px solid #f0f0f0;
     padding: 0.8rem;
 }
-.request-details .request-box .input-group {
+.request-details .request-box .content {
+    background-color: #f4f4f4;
+    height: 3.7rem;
     margin-bottom: 1rem;
-    height: 3rem;
 }
-.request-details .request-box .input-group .input-group-prepend{
-    width: 33%;
+.request-details .request-box .content span {
+    background-color: #f4f4f4;
+    width: 35%;
+    padding: 1rem 0.5rem;
+    display: inline-block;
 }
-.request-details .request-box .input-group .input-group-prepend span {
-    width: 100%;
-    border: 1px solid #bfbdbd;
-}
-.request-details .request-box .input-group input{
-    width: 67%;
-    border: 1px solid #bfbdbd;
-}
-.request-details .request-box .input-group input:focus{
-   outline: 0;
+.request-details .request-box .content p{
+    width: 64.3%;
+    background-color: #fbfbfb;
+    display: inline-block;
+    padding: 1rem 0.5rem;
+    border: 1px solid #ddd;
 }
 .request-details .request-box .details-btn {
     background-color: #2d3e50;

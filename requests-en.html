@@ -69,10 +69,10 @@
                             <a class="nav-link" href="./index-en.html">Home<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item border-right">
-                            <a class="nav-link" href="#">About blood bank</a>
+                            <a class="nav-link" href="./about-us-en.html">About blood bank</a>
                         </li>
                         <li class="nav-item border-right">
-                            <a class="nav-link" href="#">Articles</a>
+                            <a class="nav-link" href="./articles-en.html">Articles</a>
                         </li>
                         <li class="nav-item border-right">
                             <a class="nav-link" href="./requests-en.html">Donation Requests</a>
@@ -85,7 +85,7 @@
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
-                        <a href="./request-details-en.html">
+                        <a href="./request-order-en.html">
                             <button class="btn login-btn my-2 my-sm-0" type="button">Donation Request</button>
                         </a> 
                     </form>
@@ -109,37 +109,27 @@
             <div class="requests-box-color">
                 <div class="row text-center">
                     <div class="col-lg-5">
-                        <div class="dropdown btn-group">
-                            <button type="button" class="btn btn-text">Choose your blood type</button>
-                            <button class="btn border-left dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <!-- <span class="sr-only">Toggle Dropdown</span> -->
-
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">A</a>
-                                <a class="dropdown-item" href="#">A+</a>
-                                <a class="dropdown-item" href="#">B</a>
-                            </div>
-                        </div>
+                        <div class="form-group">
+                            <select id="inputState" class="form-control classic">
+                              <option selected hidden>Choose your blood type</option>
+                              <option>A</option>
+                              <option>A+</option>
+                              <option>B</option>
+                            </select>
+                          </div>
                     </div>
                     <div class="col-lg-5">
-                        <div class="dropdown btn-group">
-                            <button type="button" class="btn btn-text">Choose City</button>
-                            <button class="btn border-left dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <!-- <span class="sr-only">Toggle Dropdown</span> -->
-
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Cairo</a>
-                                <a class="dropdown-item" href="#">Alexandria</a>
-                                <a class="dropdown-item" href="#">Hurghada</a>
-                            </div>
-                        </div>
+                        <div class="form-group">
+                            <select id="inputState" class="form-control">
+                              <option selected hidden>Choose your city</option>
+                              <option>Cairo</option>
+                              <option>Alex</option>
+                              <option>Hurghada</option>
+                            </select>
+                          </div>
                     </div>
                     <div class="col-lg-2">
-                        <button type="button" class="request-search-btn">
+                        <button type="submit" class="request-search-btn">
                             <i class="fas fa-search"></i>
                         </button>
                     </div>
@@ -316,8 +306,8 @@
                 <div class="col-lg-4 footer-links">
                     <h3>Main</h3>
                     <ul class="list-unstyled">
-                        <li>About Blood Bank</li>
-                        <li>Articles</li>
+                        <li><a href="./about-us-en.html"></a> About Blood Bank</li>
+                        <li><a href="./articles-en.html">Articles</a></li>
                         <li><a href="./requests.html">Donation Requests</a></li>
                         <li><a href="./about-us.html">About us</a></li>
                         <li><a href="./contact.html">Contact us</a></li>

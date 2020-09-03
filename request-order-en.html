@@ -8,12 +8,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/plugins/OwlCarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/plugins/OwlCarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./assets/css/style-en.css">
-    <title>Sign up</title>
+    <title>Donation Request</title>
 </head>
 
 <body>
@@ -24,7 +23,7 @@
                 <div class="row">
                     <div class="col-xl-4 col-md-2 padding-sm">
                         <div class="lang">
-                            <a href="./sign-up.html">
+                            <a href="./request-details.html">
                                 <span class="lang-ar">عربى</span>
                             </a>
                             <a href="#">
@@ -55,7 +54,7 @@
         </nav>
         <nav class="navbar navbar-expand-xl navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="./index-en.html">
+                <a class="navbar-brand" href="./index-en.html"> 
                     <img src="./assets/images/logo.png" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -97,72 +96,81 @@
     <!-- End Header -->
 
 
-    <!-- Start signup -->
-    <div class="signup">
+    <!-- Start Requests -->
+    <div class="request-details">
         <div class="container">
             <nav class="pt-4" aria-label="breadcrumb">
                 <ol class="breadcrumb breadcrumb-edit">
-                    <li class="breadcrumb-item"><a href="index-en.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Sign up</li>
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">Donation Requests</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Donation Request</li>
                 </ol>
             </nav>
-            <form class="signup-form">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name">
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Email">
-                </div>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="datepicker1" placeholder="Birthday">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <i class="fas fa-calendar-alt" ></i>
+            <div class="request-box">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                 <span class="input-group-text">Name</span>
+                            </div>
+                            <input type="text">
                         </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Blood Type">
-                </div>
-                <select class="custom-select">
-                    <option selected>Governorate</option>
-                    <option value="1">Mansoura</option>
-                    <option value="2">Algharbia</option>
-                    <option value="3">Alsharkia</option>
-                </select>
-                <select class="custom-select">
-                    <option selected>City</option>
-                    <option value="1">Tanta</option>
-                    <option value="2">Kafr elzayat</option>
-                    <option value="3">Dosok</option>
-                </select>
-                <div class="form-group">
-                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
-                </div>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="datepicker2" placeholder="Last donation's date">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <i class="fas fa-calendar-alt"></i>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                 <span class="input-group-text">Blood Type</span>
+                            </div>
+                            <input type="text">
                         </div>
-                    </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                 <span class="input-group-text">Age</span>
+                            </div>
+                            <input type="text">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                 <span class="input-group-text">Number of required bags</span>
+                            </div>
+                            <input type="text">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                 <span class="input-group-text">Hospital</span>
+                            </div>
+                            <input type="text">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                 <span class="input-group-text">Phone Number</span>
+                            </div>
+                            <input type="text">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                 <span class="input-group-text">Hospital's Address</span>
+                            </div>
+                            <input type="text">
+                        </div>
+                      </div>
+                      <div class="mx-auto">
+                          <button type="submit" class="btn details-btn">Confirm</button>
+                      </div>
                 </div>
-                <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputPassword1"
-                        placeholder="Confirm Password">
-                </div>
-                <div class="text-center">
-                    <button type="submit" class="btn create-btn">Create</button>
-                </div>
-            </form>
-
         </div>
     </div>
-    <!-- End signup -->
+    <!-- End Requests -->
 
 
     <!-- Start footer -->
@@ -235,9 +243,7 @@
         crossorigin="anonymous"></script>
     <script src="./assets/plugins/OwlCarousel/owl.carousel.min.js"></script>
     <script src="https://kit.fontawesome.com/e9c094e37f.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="./assets/js/datepicker.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
