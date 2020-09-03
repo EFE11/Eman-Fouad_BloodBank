@@ -1077,6 +1077,24 @@ footer .copyright span{
     border: 1.5px solid #f0f0f0;
     padding: 0.8rem;
 }
+.request-details .request-box .input-group {
+    margin-bottom: 1rem;
+    height: 3rem;
+}
+.request-details .request-box .input-group .input-group-prepend{
+    width: 33%;
+}
+.request-details .request-box .input-group .input-group-prepend span {
+    width: 100%;
+    border: 1px solid #bfbdbd;
+}
+.request-details .request-box .input-group input{
+    width: 67%;
+    border: 1px solid #bfbdbd;
+}
+.request-details .request-box .input-group input:focus{
+   outline: 0;
+}
 .request-details .request-box .content {
     background-color: #f4f4f4;
     height: 3.7rem;
