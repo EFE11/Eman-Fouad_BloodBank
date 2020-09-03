@@ -1142,7 +1142,40 @@ footer .copyright span{
      font-size: 0.8rem;
     }
   }
-
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .request-details .request-box .content span {
+        width: 40%;
+    }
+    .request-details .request-box .content p{
+        width: 59%;
+        padding: 1.2rem 0.5rem;
+    }
+   }
+   @media (min-width: 340px) and (max-width: 991.98px) { 
+    .request-details .request-box .content {
+       font-size: 0.8rem;
+    }
+    .request-details .request-box .content span {
+        width: 52%;
+    }
+    .request-details .request-box .content p{
+        width: 47%;
+        padding: 1.2rem 0.5rem;
+    }
+    }
+    @media (max-width: 339.98px) { 
+        .request-details .request-box .content {
+           font-size: 0.6rem;
+        }
+        .request-details .request-box .content span {
+            width: 54%;
+        }
+        .request-details .request-box .content p{
+            width: 45%;
+            padding: 1.2rem 0.5rem;
+        }
+        }
+  
 
 /* End Request Details Page */
 
